@@ -10,6 +10,7 @@ class UsApplicationTests {
     void contextLoads() {
         System.out.println("123456");
         System.out.println("666666");
+        System.out.println("123456");
     }
 
 }
