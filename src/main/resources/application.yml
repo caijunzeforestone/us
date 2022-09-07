@@ -1,0 +1,16 @@
+spring:
+  #数据库连接
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///user?serverTimezone=UTC
+    username: root
+    password: caijunze
+  main:
+    allow-circular-references: true
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.bdqn.cjz.us.entity
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  port: 8888
