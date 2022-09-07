@@ -9,6 +9,7 @@ class UsApplicationTests {
     @Test
     void contextLoads() {
         System.out.println("123456");
+        System.out.println("666666");
     }
 
 }
